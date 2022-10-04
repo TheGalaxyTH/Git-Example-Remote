@@ -3,6 +3,4 @@ project(Git_Example_Remote C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_subdirectory(class0)
-add_subdirectory(class1)
-add_subdirectory(OJwork)
+add_executable(pi pi.c)

@@ -40,42 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/privacy/Git-Example-Remote/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target Git_Example_Remote
-
-
-#############################################
-# Order-only phony target for Git_Example_Remote
-
-build cmake_object_order_depends_target_Git_Example_Remote: phony || CMakeFiles/Git_Example_Remote.dir
-
-build CMakeFiles/Git_Example_Remote.dir/test.c.obj: C_COMPILER__Git_Example_Remote_Debug D$:/privacy/Git-Example-Remote/test.c || cmake_object_order_depends_target_Git_Example_Remote
-  DEP_FILE = CMakeFiles\Git_Example_Remote.dir\test.c.obj.d
-  FLAGS = -g -std=gnu11
-  OBJECT_DIR = CMakeFiles\Git_Example_Remote.dir
-  OBJECT_FILE_DIR = CMakeFiles\Git_Example_Remote.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Git_Example_Remote.dir\
-  TARGET_PDB = Git_Example_Remote.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Git_Example_Remote
-
-
-#############################################
-# Link the executable Git_Example_Remote.exe
-
-build Git_Example_Remote.exe: C_EXECUTABLE_LINKER__Git_Example_Remote_Debug CMakeFiles/Git_Example_Remote.dir/test.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Git_Example_Remote.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Git_Example_Remote.dir\
-  TARGET_FILE = Git_Example_Remote.exe
-  TARGET_IMPLIB = libGit_Example_Remote.dll.a
-  TARGET_PDB = Git_Example_Remote.pdb
-
 
 #############################################
 # Utility command for edit_cache
@@ -100,9 +64,276 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/privacy/Git-Example-Remote/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || class0/CMakeFiles/test.dir
+
+build class0/CMakeFiles/test.dir/test.c.obj: C_COMPILER__test_Debug D$:/privacy/Git-Example-Remote/class0/test.c || cmake_object_order_depends_target_test
+  DEP_FILE = class0\CMakeFiles\test.dir\test.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = class0\CMakeFiles\test.dir
+  OBJECT_FILE_DIR = class0\CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable class0\test.exe
+
+build class0/test.exe: C_EXECUTABLE_LINKER__test_Debug class0/CMakeFiles/test.dir/test.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = class0\CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class0\test.exe
+  TARGET_IMPLIB = class0\libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test1
+
+
+#############################################
+# Order-only phony target for test1
+
+build cmake_object_order_depends_target_test1: phony || class0/CMakeFiles/test1.dir
+
+build class0/CMakeFiles/test1.dir/test1.c.obj: C_COMPILER__test1_Debug D$:/privacy/Git-Example-Remote/class0/test1.c || cmake_object_order_depends_target_test1
+  DEP_FILE = class0\CMakeFiles\test1.dir\test1.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = class0\CMakeFiles\test1.dir
+  OBJECT_FILE_DIR = class0\CMakeFiles\test1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test1
+
+
+#############################################
+# Link the executable class0\test1.exe
+
+build class0/test1.exe: C_EXECUTABLE_LINKER__test1_Debug class0/CMakeFiles/test1.dir/test1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = class0\CMakeFiles\test1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class0\test1.exe
+  TARGET_IMPLIB = class0\libtest1.dll.a
+  TARGET_PDB = test1.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build class0/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\privacy\Git-Example-Remote\cmake-build-debug\class0 && C:\Users\12777\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build class0/edit_cache: phony class0/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build class0/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\privacy\Git-Example-Remote\cmake-build-debug\class0 && C:\Users\12777\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\privacy\Git-Example-Remote -BD:\privacy\Git-Example-Remote\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build class0/rebuild_cache: phony class0/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/privacy/Git-Example-Remote/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target circle
+
+
+#############################################
+# Order-only phony target for circle
+
+build cmake_object_order_depends_target_circle: phony || class1/CMakeFiles/circle.dir
+
+build class1/CMakeFiles/circle.dir/circle.c.obj: C_COMPILER__circle_Debug D$:/privacy/Git-Example-Remote/class1/circle.c || cmake_object_order_depends_target_circle
+  DEP_FILE = class1\CMakeFiles\circle.dir\circle.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = class1\CMakeFiles\circle.dir
+  OBJECT_FILE_DIR = class1\CMakeFiles\circle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target circle
+
+
+#############################################
+# Link the executable class1\circle.exe
+
+build class1/circle.exe: C_EXECUTABLE_LINKER__circle_Debug class1/CMakeFiles/circle.dir/circle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = class1\CMakeFiles\circle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class1\circle.exe
+  TARGET_IMPLIB = class1\libcircle.dll.a
+  TARGET_PDB = circle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sphere
+
+
+#############################################
+# Order-only phony target for sphere
+
+build cmake_object_order_depends_target_sphere: phony || class1/CMakeFiles/sphere.dir
+
+build class1/CMakeFiles/sphere.dir/sphere.c.obj: C_COMPILER__sphere_Debug D$:/privacy/Git-Example-Remote/class1/sphere.c || cmake_object_order_depends_target_sphere
+  DEP_FILE = class1\CMakeFiles\sphere.dir\sphere.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = class1\CMakeFiles\sphere.dir
+  OBJECT_FILE_DIR = class1\CMakeFiles\sphere.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sphere
+
+
+#############################################
+# Link the executable class1\sphere.exe
+
+build class1/sphere.exe: C_EXECUTABLE_LINKER__sphere_Debug class1/CMakeFiles/sphere.dir/sphere.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = class1\CMakeFiles\sphere.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class1\sphere.exe
+  TARGET_IMPLIB = class1\libsphere.dll.a
+  TARGET_PDB = sphere.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build class1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\privacy\Git-Example-Remote\cmake-build-debug\class1 && C:\Users\12777\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build class1/edit_cache: phony class1/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build class1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\privacy\Git-Example-Remote\cmake-build-debug\class1 && C:\Users\12777\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\privacy\Git-Example-Remote -BD:\privacy\Git-Example-Remote\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build class1/rebuild_cache: phony class1/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/privacy/Git-Example-Remote/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pi
+
+
+#############################################
+# Order-only phony target for pi
+
+build cmake_object_order_depends_target_pi: phony || OJwork/CMakeFiles/pi.dir
+
+build OJwork/CMakeFiles/pi.dir/pi.c.obj: C_COMPILER__pi_Debug D$:/privacy/Git-Example-Remote/OJwork/pi.c || cmake_object_order_depends_target_pi
+  DEP_FILE = OJwork\CMakeFiles\pi.dir\pi.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = OJwork\CMakeFiles\pi.dir
+  OBJECT_FILE_DIR = OJwork\CMakeFiles\pi.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pi
+
+
+#############################################
+# Link the executable OJwork\pi.exe
+
+build OJwork/pi.exe: C_EXECUTABLE_LINKER__pi_Debug OJwork/CMakeFiles/pi.dir/pi.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = OJwork\CMakeFiles\pi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OJwork\pi.exe
+  TARGET_IMPLIB = OJwork\libpi.dll.a
+  TARGET_PDB = pi.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build OJwork/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\privacy\Git-Example-Remote\cmake-build-debug\OJwork && C:\Users\12777\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build OJwork/edit_cache: phony OJwork/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build OJwork/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\privacy\Git-Example-Remote\cmake-build-debug\OJwork && C:\Users\12777\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\privacy\Git-Example-Remote -BD:\privacy\Git-Example-Remote\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build OJwork/rebuild_cache: phony OJwork/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build Git_Example_Remote: phony Git_Example_Remote.exe
+build circle: phony class1/circle.exe
+
+build circle.exe: phony class1/circle.exe
+
+build pi: phony OJwork/pi.exe
+
+build pi.exe: phony OJwork/pi.exe
+
+build sphere: phony class1/sphere.exe
+
+build sphere.exe: phony class1/sphere.exe
+
+build test: phony class0/test.exe
+
+build test.exe: phony class0/test.exe
+
+build test1: phony class0/test1.exe
+
+build test1.exe: phony class0/test1.exe
 
 # =============================================================================
 # Folder targets.
@@ -112,7 +343,28 @@ build Git_Example_Remote: phony Git_Example_Remote.exe
 #############################################
 # Folder: D:/privacy/Git-Example-Remote/cmake-build-debug
 
-build all: phony Git_Example_Remote.exe
+build all: phony class0/all class1/all OJwork/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/privacy/Git-Example-Remote/cmake-build-debug/OJwork
+
+build OJwork/all: phony OJwork/pi.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/privacy/Git-Example-Remote/cmake-build-debug/class0
+
+build class0/all: phony class0/test.exe class0/test1.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/privacy/Git-Example-Remote/cmake-build-debug/class1
+
+build class1/all: phony class1/circle.exe class1/sphere.exe
 
 # =============================================================================
 # Built-in targets
@@ -121,14 +373,14 @@ build all: phony Git_Example_Remote.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCCompiler.cmake.in C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystem.cmake.in C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestRCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../OJwork/CMakeLists.txt ../class0/CMakeLists.txt ../class1/CMakeLists.txt C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCCompiler.cmake.in C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystem.cmake.in C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeTestRCCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../OJwork/CMakeLists.txt ../class0/CMakeLists.txt ../class1/CMakeLists.txt C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Users/12777/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################
