@@ -4,10 +4,9 @@ D:/privacy/Git-Example-Remote/cmake-build-debug/class0/CMakeFiles/test.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class0/CMakeFiles/test1.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class0/CMakeFiles/edit_cache.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class0/CMakeFiles/rebuild_cache.dir
-D:/privacy/Git-Example-Remote/cmake-build-debug/class1/CMakeFiles/circle.dir
-D:/privacy/Git-Example-Remote/cmake-build-debug/class1/CMakeFiles/sphere.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class1/CMakeFiles/edit_cache.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class1/CMakeFiles/rebuild_cache.dir
-D:/privacy/Git-Example-Remote/cmake-build-debug/OJwork/CMakeFiles/pi.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/OJwork/CMakeFiles/edit_cache.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/OJwork/CMakeFiles/rebuild_cache.dir
+D:/privacy/Git-Example-Remote/cmake-build-debug/class2/CMakeFiles/edit_cache.dir
+D:/privacy/Git-Example-Remote/cmake-build-debug/class2/CMakeFiles/rebuild_cache.dir

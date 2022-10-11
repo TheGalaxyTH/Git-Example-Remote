@@ -1,7 +1,6 @@
 //
-// Created by 12777 on 2022/9/25.
+// Created by 12777 on 2022/10/10.
 //
-
 #include <stdio.h>
 char text[10000000];
 int main() {
