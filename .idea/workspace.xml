@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Git_Example_Remote" targetName="test" />
+      <config projectName="Git_Example_Remote" targetName="test1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfcbc792-16ef-4285-9533-03c09b566f72" name="变更" comment="Finish the homework of class2.">
+      <change afterPath="$PROJECT_DIR$/OJwork/Inverse2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/Sum of factorials1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/Sum of factorials2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/collatz.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/obstacle.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/series.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/single.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class2/min of more.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class2/min of two.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class2/year.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OJwork/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OJwork/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class0/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class0/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class0/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/class0/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class0/test1.c" beforeDir="false" afterPath="$PROJECT_DIR$/class0/test1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.3" />
+  </component>
+  <component name="ProjectId" id="2FG99Z4FfykRkR0uq7Vsbjx5LsX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/privacy/Git-Example-Remote/OJwork&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\privacy\Git-Example-Remote\OJwork" />
+      <recent name="D:\privacy\Git-Example-Remote\class1" />
+      <recent name="D:\privacy\Git-Example-Remote" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\privacy\Git-Example-Remote\class0" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.test">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" singleton="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Git_Example_Remote" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Git_Example_Remote" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Git_Example_Remote" TARGET_NAME="test1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Git_Example_Remote" RUN_TARGET_NAME="test1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.test" />
+      <item itemvalue="CMake 应用程序.test1" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="dfcbc792-16ef-4285-9533-03c09b566f72" name="变更" comment="" />
+      <created>1664107404508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664107404508</updated>
+      <workItem from="1664107406335" duration="16000" />
+      <workItem from="1664107425563" duration="192000" />
+      <workItem from="1664107794531" duration="340000" />
+      <workItem from="1664464352595" duration="72000" />
+      <workItem from="1664513271501" duration="6000" />
+      <workItem from="1664513556866" duration="272000" />
+      <workItem from="1664517323718" duration="6000" />
+      <workItem from="1664517658141" duration="6636000" />
+      <workItem from="1664526895136" duration="722000" />
+      <workItem from="1664785133551" duration="10160000" />
+      <workItem from="1664800477182" duration="2907000" />
+      <workItem from="1664849930759" duration="14727000" />
+      <workItem from="1664882027019" duration="1987000" />
+      <workItem from="1664930910711" duration="596000" />
+      <workItem from="1664960488237" duration="5418000" />
+      <workItem from="1665057343617" duration="588000" />
+      <workItem from="1665121644433" duration="6748000" />
+      <workItem from="1665153985149" duration="4255000" />
+      <workItem from="1665198878592" duration="2901000" />
+      <workItem from="1665215325187" duration="250000" />
+      <workItem from="1665226680324" duration="4368000" />
+      <workItem from="1665231763743" duration="1276000" />
+      <workItem from="1665242406707" duration="2385000" />
+      <workItem from="1665294833955" duration="617000" />
+      <workItem from="1665322060137" duration="1448000" />
+      <workItem from="1665323535655" duration="4443000" />
+      <workItem from="1665399905486" duration="10373000" />
+      <workItem from="1665460320452" duration="1000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finish the homework of class2.">
+      <created>1664882091437</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664882091437</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish the homework of class2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish the homework of class2." />
+  </component>
+</project>
