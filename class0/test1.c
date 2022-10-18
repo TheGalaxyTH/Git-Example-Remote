@@ -4,7 +4,15 @@
 #include<stdio.h>
 
 int main(){
-    char a[10]= {'h','b'},b='lol';
-    printf("%s",a);
+    int n,ascii,num[114514]={0},max,length=0;
+    char character,a;
+    scanf("%d",&n);
+    scanf("%c",&a);
+    for (int i = 0; i < n; ++i) {
+        scanf("%c",&character);
+        ascii=character;
+        num[ascii]++;
+        printf("%d",num[ascii]);
+    }
     return 0;
 }

@@ -18,31 +18,38 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfcbc792-16ef-4285-9533-03c09b566f72" name="变更" comment="Finish the homework of class2.">
-      <change afterPath="$PROJECT_DIR$/OJwork/Inverse2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJwork/Sum of factorials1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJwork/Sum of factorials2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJwork/collatz.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJwork/obstacle.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJwork/series.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OJwork/single.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class2/min of more.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class2/min of two.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class2/year.c" afterDir="false" />
+    <list default="true" id="dfcbc792-16ef-4285-9533-03c09b566f72" name="变更" comment="Finish the homework of class2 and add files of class2.">
+      <change afterPath="$PROJECT_DIR$/Foundations of Computing Systems/6-19.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/Quick-sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/decimal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/flip.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/josephus.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/palindrome.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OJwork/statistics.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class3/binary-search.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class3/digits.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class3/primes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class3/selection-sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class3/stars.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OJwork/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OJwork/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class0/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class0/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class0/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/class0/test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class0/test1.c" beforeDir="false" afterPath="$PROJECT_DIR$/class0/test1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-746938dd3968a58ce660.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-f87a5381e5ef48d57169.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4e4ff95716e780e186cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-07T14-47-21-0529.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class0/CMakeFiles/test.dir/test.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class0/CMakeFiles/test.dir/test.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class0/CMakeFiles/test1.dir/test1.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class0/CMakeFiles/test1.dir/test1.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class0/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class0/test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class0/test1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class0/test1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +92,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/privacy/Git-Example-Remote/OJwork&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/privacy/Git-Example-Remote/class3&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\privacy\Git-Example-Remote\class3" />
       <recent name="D:\privacy\Git-Example-Remote\OJwork" />
       <recent name="D:\privacy\Git-Example-Remote\class1" />
       <recent name="D:\privacy\Git-Example-Remote" />
@@ -151,7 +159,18 @@
       <workItem from="1665322060137" duration="1448000" />
       <workItem from="1665323535655" duration="4443000" />
       <workItem from="1665399905486" duration="10373000" />
-      <workItem from="1665460320452" duration="1000" />
+      <workItem from="1665460320452" duration="755000" />
+      <workItem from="1665497069851" duration="3769000" />
+      <workItem from="1665727252573" duration="6722000" />
+      <workItem from="1665827289334" duration="12000" />
+      <workItem from="1665887668234" duration="3899000" />
+      <workItem from="1665902259160" duration="14364000" />
+      <workItem from="1665926306408" duration="395000" />
+      <workItem from="1666009488996" duration="12250000" />
+      <workItem from="1666055727005" duration="2711000" />
+      <workItem from="1666061493309" duration="4753000" />
+      <workItem from="1666082322140" duration="746000" />
+      <workItem from="1666101264161" duration="4599000" />
     </task>
     <task id="LOCAL-00001" summary="Finish the homework of class2.">
       <created>1664882091437</created>
@@ -160,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664882091437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish the homework of class2.">
+      <created>1665460354050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665460354050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finish the homework of class2 and add files of class2.">
+      <created>1665460404384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665460404384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finish the homework of class2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish the homework of class2." />
+    <MESSAGE value="Finish the homework of class2 and add files of class2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish the homework of class2 and add files of class2." />
   </component>
 </project>

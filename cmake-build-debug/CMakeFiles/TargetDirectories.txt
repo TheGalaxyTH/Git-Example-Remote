@@ -10,3 +10,5 @@ D:/privacy/Git-Example-Remote/cmake-build-debug/OJwork/CMakeFiles/edit_cache.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/OJwork/CMakeFiles/rebuild_cache.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class2/CMakeFiles/edit_cache.dir
 D:/privacy/Git-Example-Remote/cmake-build-debug/class2/CMakeFiles/rebuild_cache.dir
+D:/privacy/Git-Example-Remote/cmake-build-debug/class3/CMakeFiles/edit_cache.dir
+D:/privacy/Git-Example-Remote/cmake-build-debug/class3/CMakeFiles/rebuild_cache.dir
